@@ -1,4 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+#~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -16,8 +16,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=1000000
+HISTFILESIZE=2000000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -76,10 +76,10 @@ fi
 # setting PATH
 export JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:/bin/javac::")
 export PATH=$PATH:$JAVA_HOME/bin
-export PATH=$PATH:/home/gpu/Downloads/idea-IU-143.2287.1/bin
-export PATH=$PATH:/home/gpu/Downloads/clion-1.2.4/bin
+export PATH=$PATH:/home/gpu/software/intelliJ/bin
+export PATH=$PATH:/home/gpu/software/clion/bin
 # opencv
-PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig
+PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
 export PKG_CONFIG_PATH
 #標準Hadoop2.6.0
 #export PATH=$PATH:/home/gpu/local/hadoop-2.6.0/bin
@@ -94,8 +94,8 @@ export PKG_CONFIG_PATH
 #export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
 
 #gpu対応Hadoop2.6.0
-export PATH=$PATH:/home/gpu/hadoop-learning/hadoop/hadoop-dist/target/hadoop-2.6.0/bin
-export HADOOP_HOME=/home/gpu/hadoop-learning/hadoop/hadoop-dist/target/hadoop-2.6.0
+export PATH=$PATH:/home/gpu/workspace/hadoop_g/hadoop-dist/target/hadoop-2.6.0/bin
+export HADOOP_HOME=/home/gpu/workspace/hadoop_g/hadoop-dist/target/hadoop-2.6.0
 export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
 export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
 
