@@ -1,0 +1,14 @@
+AnsiEsc.vim
+neobundle.vim
+neomru.vim
+nerdtree
+tagbar
+tcomment_vim
+unite.vim
+vim-endwise
+vim-go
+vim-gocode
+vim-indent-guides
+vim-quickrun
+vim-rails
+vimproc

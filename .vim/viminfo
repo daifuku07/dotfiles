@@ -1,0 +1,195 @@
+# この viminfo ファイルは Vim 7.4 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/\vPOLICY
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q
+:wq
+:q!
+:Q!
+:'<,'>ew
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+? POLICY
+?/\vPOLICY
+?/\vPOLICYn
+?/\vPOLICYnn
+?/\vPOLICYnnn
+?/\vPOLIC
+?/\vPOLI
+?/\vPOL
+?/\vPO
+?/\vP
+? P
+?/\vC
+?/\vCO
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+
+# ファイルマーク:
+'0  367  3  ~/workspace/Autoware/ros/log
+'1  19  16  ~/.bashrc
+'2  105  46  ~/.bashrc
+'3  108  0  ~/.bashrc
+'4  16  33  ~/workspace/OpenNI2/structure_grabber/CMakeLists.txt
+'5  15  36  ~/workspace/OpenNI2/structure_grabber/CMakeLists.txt
+'6  1  0  /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+'7  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+'8  5  0  /usr/lib/pkgconfig/libopenni2.pc
+'9  106  0  ~/.bashrc
+
+# ジャンプリスト (新しいものが先):
+-'  367  3  ~/workspace/Autoware/ros/log
+-'  1  0  ~/workspace/Autoware/ros/log
+-'  19  16  ~/.bashrc
+-'  105  46  ~/.bashrc
+-'  108  0  ~/.bashrc
+-'  106  0  ~/.bashrc
+-'  16  33  ~/workspace/OpenNI2/structure_grabber/CMakeLists.txt
+-'  15  36  ~/workspace/OpenNI2/structure_grabber/CMakeLists.txt
+-'  1  0  /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  27  44  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  12  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  1  0  /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+-'  63  9  ~/workspace/Autoware/ros/src/CMakeLists.txt
+-'  30  6  ~/workspace/Autoware/ros/src/CMakeLists.txt
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/workspace/Autoware/ros/log
+	"	367	3
+
+> ~/.bashrc
+	"	19	16
+	^	105	46
+	.	105	46
+	+	106	0
+	+	105	46
+
+> ~/workspace/OpenNI2/structure_grabber/CMakeLists.txt
+	"	16	33
+	^	16	34
+	.	16	34
+	+	15	0
+	+	16	0
+	+	15	0
+	+	16	0
+	+	15	8
+	+	16	34
+
+> /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+	"	1	0
+
+> ~/workspace/Autoware/ros/src/CMakeLists.txt
+	"	63	9
+	^	63	10
+	.	63	9
+	+	63	9
+
+> /usr/lib/pkgconfig/libopenni2.pc
+	"	5	0
+
+> /usr/share/cmake-3.2/Modules/FindCUDA.cmake
+	"	64	0
+
+> ~/.vimrc
+	"	1748	9
