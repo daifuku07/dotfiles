@@ -100,11 +100,11 @@ export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
 export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
 
 # source /home/gpu/workspace/Structure/kinect/OpenNI-Linux-x64-2.2/OpenNIDevEnvironment
-export PATH=$PATH:/usr/local/cuda-7.5/bin
-export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64:$LD_LIBRARY_PATH
-export LIBRARY_PATH=/usr/lib/OpenNI2/Drivers:$LIBRARY_PATH
+#export PATH=$PATH:/usr/local/cuda-7.5/bin
+#export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64:$LD_LIBRARY_PATH
+#export LIBRARY_PATH=/usr/lib/OpenNI2/Drivers:$LIBRARY_PATH
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
-source /opt/ros/indigo/setup.bash
 
 export ROS_IP=`hostname -I`
 export ROS_MASTER_URI=http://192.168.200.1:11311
+#source /opt/ros/kinetic/setup.bash
