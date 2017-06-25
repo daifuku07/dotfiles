@@ -30,7 +30,21 @@ shopt -s checkwinsize
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
-PS1='\[\e[0;32m\][\u@\h]\[\e[0;37m\]\w\n% '
+function parse_git_branch {
+    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ [\1]/'
+}
+function promps {
+    local  BLUE="\[\e[1;34m\]"
+    local  RED="\[\e[0;31m\]"
+    local  B_GREEN="\[\e[1;32m\]"
+    local  GREEN="\[\e[0;32m\]"
+    local  WHITE="\[\e[00m\]"
+    local  CYAN="\[\e[0;36m\]"
+
+    local BASE="\u@\h"
+    PS1="${GREEN}${BASE}${WHITE}:\w${CYAN}\$(parse_git_branch)\n${WHITE}\$ "
+}
+promps
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -78,7 +92,7 @@ export JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:/bin/javac::")
 export PATH=$PATH:$JAVA_HOME/bin
 export PATH=$PATH:/home/gpu/software/intelliJ/bin
 export PATH=$PATH:/home/gpu/software/clion/bin
-# opencv
+# OpenCV
 PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
 export PKG_CONFIG_PATH
 #標準Hadoop2.6.0
@@ -94,17 +108,19 @@ export PKG_CONFIG_PATH
 #export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
 
 #gpu対応Hadoop2.6.0
-export PATH=$PATH:/home/gpu/workspace/hadoop_g/hadoop-dist/target/hadoop-2.6.0/bin
-export HADOOP_HOME=/home/gpu/workspace/hadoop_g/hadoop-dist/target/hadoop-2.6.0
-export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
-export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
+#export PATH=$PATH:/home/gpu/workspace/hadoop_g/hadoop-dist/target/hadoop-2.6.0/bin
+#export HADOOP_HOME=/home/gpu/workspace/hadoop_g/hadoop-dist/target/hadoop-2.6.0
+#export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
+#export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
 
-# source /home/gpu/workspace/Structure/kinect/OpenNI-Linux-x64-2.2/OpenNIDevEnvironment
-#export PATH=$PATH:/usr/local/cuda-7.5/bin
-#export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64:$LD_LIBRARY_PATH
 #export LIBRARY_PATH=/usr/lib/OpenNI2/Drivers:$LIBRARY_PATH
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
-export ROS_IP=`hostname -I`
-export ROS_MASTER_URI=http://192.168.200.1:11311
-#source /opt/ros/kinetic/setup.bash
+#ROS
+#export ROS_IP=`hostname -I`
+#export ROS_MASTER_URI=http://192.168.200.1:11311
+source /opt/ros/kinetic/setup.bash
+
+## CUDA and cuDNN paths
+export PATH=/usr/local/cuda/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
