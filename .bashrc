@@ -42,7 +42,12 @@ function promps {
     local  CYAN="\[\e[0;36m\]"
 
     local BASE="\u@\h"
-    PS1="${GREEN}${BASE}${WHITE}:\w${CYAN}\$(parse_git_branch)\n${WHITE}\$ "
+
+    if [ $UID -eq 0 ]; then
+      PS1="${RED}${BASE}${WHITE}:\w${CYAN}\$(parse_git_branch)\n${WHITE}# "
+    else
+      PS1="${GREEN}${BASE}${WHITE}:\w${CYAN}\$(parse_git_branch)\n${WHITE}\$ "
+    fi
 }
 promps
 
