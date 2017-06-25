@@ -3,5 +3,10 @@
 	email = fuku137.di@gmail.com
 [color]
 	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
 [alias]
 	co = checkout
+[core]
+	editor = vim -c \"set fenc=utf-8\"
