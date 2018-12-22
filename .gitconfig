@@ -10,3 +10,5 @@
 	co = checkout
 [core]
 	editor = vim -c \"set fenc=utf-8\"
+[fetch]
+  prune = true
